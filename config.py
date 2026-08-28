@@ -26,7 +26,19 @@ CHROMA_PERSIST_DIR.mkdir(parents=True, exist_ok=True)
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
 # API Keys
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY") or ""
+def get_configured_api_key() -> str:
+    try:
+        import streamlit as st
+        if hasattr(st, "secrets"):
+            if "GEMINI_API_KEY" in st.secrets:
+                return str(st.secrets["GEMINI_API_KEY"]).strip()
+            if "GOOGLE_API_KEY" in st.secrets:
+                return str(st.secrets["GOOGLE_API_KEY"]).strip()
+    except Exception:
+        pass
+    return os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY") or ""
+
+GEMINI_API_KEY = get_configured_api_key()
 
 # LLM Models
 DEFAULT_MODEL = os.getenv("DEFAULT_MODEL", "gemini-3.5-flash")

@@ -46,6 +46,20 @@ def approximate_tokens(text: str) -> int:
         return 0
     return max(1, int(len(text.split()) * 1.3))
 
+def get_active_api_key(passed_key: Optional[str] = None) -> str:
+    if passed_key and str(passed_key).strip():
+        return str(passed_key).strip()
+    try:
+        import streamlit as st
+        if hasattr(st, "secrets"):
+            if "GEMINI_API_KEY" in st.secrets:
+                return str(st.secrets["GEMINI_API_KEY"]).strip()
+            if "GOOGLE_API_KEY" in st.secrets:
+                return str(st.secrets["GOOGLE_API_KEY"]).strip()
+    except Exception:
+        pass
+    return os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY") or GEMINI_API_KEY or ""
+
 def call_gemini_rest_fallback(
     contents: Any,
     system_instruction: Optional[str] = None,
@@ -55,10 +69,14 @@ def call_gemini_rest_fallback(
     api_key: Optional[str] = None
 ) -> str:
     """Fallback REST API caller if google-genai package is not initialized."""
-    key = api_key or GEMINI_API_KEY
+    key = get_active_api_key(api_key)
+    if not key:
+        raise ValueError("GEMINI_API_KEY is not set. Please paste your key in the sidebar or configure it in Streamlit Secrets.")
+        
     models = candidate_models or MODEL_CANDIDATES
     prompt_text = contents if isinstance(contents, str) else str(contents)
     
+    last_err = None
     for model_name in models:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={key}"
         payload: Dict[str, Any] = {
@@ -79,10 +97,13 @@ def call_gemini_rest_fallback(
                     parts = candidates[0]["content"].get("parts", [])
                     if parts and "text" in parts[0]:
                         return parts[0]["text"]
-        except Exception:
+            else:
+                last_err = f"{model_name} (HTTP {r.status_code}): {r.text[:200]}"
+        except Exception as ex:
+            last_err = str(ex)
             continue
             
-    raise RuntimeError("All Gemini model endpoints failed via REST fallback.")
+    raise RuntimeError(f"All Gemini model endpoints failed. Details: {last_err}")
 
 def call_gemini_with_fallback(
     client: Optional[Any] = None,

@@ -252,6 +252,16 @@ def fallback_menu_search(query: str):
 
 # Helper to get active API key dynamically
 def get_current_api_key() -> str:
+    # 1. Streamlit Secrets (for Streamlit Community Cloud)
+    try:
+        if hasattr(st, "secrets"):
+            if "GEMINI_API_KEY" in st.secrets:
+                return str(st.secrets["GEMINI_API_KEY"]).strip()
+            if "GOOGLE_API_KEY" in st.secrets:
+                return str(st.secrets["GOOGLE_API_KEY"]).strip()
+    except Exception:
+        pass
+    # 2. Environment Variables (.env)
     try:
         from dotenv import load_dotenv
         load_dotenv(BASE_DIR / ".env", override=True)
