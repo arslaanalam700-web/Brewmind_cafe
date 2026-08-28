@@ -1,0 +1,82 @@
+[
+  {
+    "id": "eval_menu_01",
+    "question": "I need a high caffeine iced drink that is vegan and dairy-free with chocolate or caramel flavor notes.",
+    "expected_papers": ["item_nitro_oat_latte", "item_americano_iced"],
+    "expected_chunk_ids": ["item_nitro_oat_latte", "item_americano_iced"],
+    "category": "Iced & Dairy-Free",
+    "expected_answer": "Nitro Draft Oat Milk Latte [item_nitro_oat_latte] or Iced Reserve Americano [item_americano_iced]"
+  },
+  {
+    "id": "eval_menu_02",
+    "question": "Recommend a decaf or low caffeine warm bakery pairing that is gluten-free.",
+    "expected_papers": ["item_brownie_gf"],
+    "expected_chunk_ids": ["item_brownie_gf"],
+    "category": "Gluten-Free Bakery",
+    "expected_answer": "Valrhona Dark Chocolate Brownie [item_brownie_gf]"
+  },
+  {
+    "id": "eval_menu_03",
+    "question": "I want a single-origin hot pourover coffee with floral or jasmine tea notes.",
+    "expected_papers": ["item_pourover_yirgacheffe"],
+    "expected_chunk_ids": ["item_pourover_yirgacheffe"],
+    "category": "Single-Origin Pourover",
+    "expected_answer": "Ethiopian Yirgacheffe V60 Pourover [item_pourover_yirgacheffe]"
+  },
+  {
+    "id": "eval_menu_04",
+    "question": "What is a great Japanese matcha drink served iced with oat milk?",
+    "expected_papers": ["item_matcha_iced_oat"],
+    "expected_chunk_ids": ["item_matcha_iced_oat"],
+    "category": "Matcha & Tea",
+    "expected_answer": "Ceremonial Uji Matcha Latte [item_matcha_iced_oat]"
+  },
+  {
+    "id": "eval_menu_05",
+    "question": "Recommend a classic hot espresso drink with honey and cinnamon spice.",
+    "expected_papers": ["item_cappuccino_honey"],
+    "expected_chunk_ids": ["item_cappuccino_honey"],
+    "category": "Espresso Classics",
+    "expected_answer": "Spanish Honey Cinnamon Cappuccino [item_cappuccino_honey]"
+  },
+  {
+    "id": "eval_menu_06",
+    "question": "I am looking for a caffeine-free wellness drink with turmeric and ginger.",
+    "expected_papers": ["item_golden_turmeric_latte"],
+    "expected_chunk_ids": ["item_golden_turmeric_latte"],
+    "category": "Wellness & Decaf",
+    "expected_answer": "Golden Turmeric Ginger Tonic [item_golden_turmeric_latte]"
+  },
+  {
+    "id": "eval_menu_07",
+    "question": "What vegan breakfast toast item do you offer on sourdough?",
+    "expected_papers": ["item_avocado_toast"],
+    "expected_chunk_ids": ["item_avocado_toast"],
+    "category": "Artisanal Foods",
+    "expected_answer": "Artisanal Sourdough Avocado Toast [item_avocado_toast]"
+  },
+  {
+    "id": "eval_menu_08",
+    "question": "Recommend an iced cold brew topped with sweet vanilla cloud cold foam.",
+    "expected_papers": ["item_vanilla_cold_foam"],
+    "expected_chunk_ids": ["item_vanilla_cold_foam"],
+    "category": "Cold Brew & Nitro",
+    "expected_answer": "Vanilla Bean Cloud Cold Brew [item_vanilla_cold_foam]"
+  },
+  {
+    "id": "eval_menu_09",
+    "question": "Suggest a high caffeine spiced tea drink infused with espresso.",
+    "expected_papers": ["item_chai_dirty_iced"],
+    "expected_chunk_ids": ["item_chai_dirty_iced"],
+    "category": "Matcha & Tea",
+    "expected_answer": "Dirty Spiced Chai Latte [item_chai_dirty_iced]"
+  },
+  {
+    "id": "eval_menu_10",
+    "question": "Recommend a classic pure espresso shot extracted under 9-bar pressure.",
+    "expected_papers": ["item_espresso_classic"],
+    "expected_chunk_ids": ["item_espresso_classic"],
+    "category": "Espresso Classics",
+    "expected_answer": "Artisanal Double Espresso [item_espresso_classic]"
+  }
+]

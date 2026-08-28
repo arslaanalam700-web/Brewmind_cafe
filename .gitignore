@@ -1,0 +1,18 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment secrets
+.env
+
+# Large temporary/eval artifacts
+results/
+logs/
+*.log

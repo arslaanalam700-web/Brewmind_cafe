@@ -1,0 +1,584 @@
+{
+  "item_espresso_classic": {
+    "chunk_id": "item_espresso_classic",
+    "paper_id": "item_espresso_classic",
+    "paper_title": "Artisanal Double Espresso",
+    "page": 1,
+    "section": "Espresso Classics",
+    "text": "Menu Item: Artisanal Double Espresso (ID: item_espresso_classic)\nCategory: Espresso Classics | Price: $3.75 | Temperature: hot\nCaffeine Level: high | Dietary Suitable Tags: vegan, dairy-free, gluten-free, keto, sugar-free\nFlavor Notes: dark chocolate, crema, toasted hazelnut\nDescription: Double shot of single-origin Ethiopian beans extracted under 9-bar pressure with a thick golden crema.\nIngredients: Espresso (Single-Origin Ethiopian)\nRecommended Pairing: item_croissant_butter\n",
+    "item_data": {
+      "id": "item_espresso_classic",
+      "name": "Artisanal Double Espresso",
+      "category": "Espresso Classics",
+      "price": 3.75,
+      "caffeine_level": "high",
+      "temp": "hot",
+      "flavor_notes": [
+        "dark chocolate",
+        "crema",
+        "toasted hazelnut"
+      ],
+      "dietary_tags": [
+        "vegan",
+        "dairy-free",
+        "gluten-free",
+        "keto",
+        "sugar-free"
+      ],
+      "description": "Double shot of single-origin Ethiopian beans extracted under 9-bar pressure with a thick golden crema.",
+      "ingredients": [
+        "Espresso (Single-Origin Ethiopian)"
+      ],
+      "pairing_suggestion": "item_croissant_butter"
+    },
+    "word_count": 58
+  },
+  "item_americano_iced": {
+    "chunk_id": "item_americano_iced",
+    "paper_id": "item_americano_iced",
+    "paper_title": "Iced Reserve Americano",
+    "page": 1,
+    "section": "Espresso Classics",
+    "text": "Menu Item: Iced Reserve Americano (ID: item_americano_iced)\nCategory: Espresso Classics | Price: $4.25 | Temperature: iced\nCaffeine Level: high | Dietary Suitable Tags: vegan, dairy-free, gluten-free, keto, sugar-free\nFlavor Notes: crisp, citrus finish, caramel body\nDescription: Double shot of espresso poured over chilled filtered water and crystal-clear ice rocks.\nIngredients: Espresso, Filtered Water, Ice\nRecommended Pairing: item_almond_danish\n",
+    "item_data": {
+      "id": "item_americano_iced",
+      "name": "Iced Reserve Americano",
+      "category": "Espresso Classics",
+      "price": 4.25,
+      "caffeine_level": "high",
+      "temp": "iced",
+      "flavor_notes": [
+        "crisp",
+        "citrus finish",
+        "caramel body"
+      ],
+      "dietary_tags": [
+        "vegan",
+        "dairy-free",
+        "gluten-free",
+        "keto",
+        "sugar-free"
+      ],
+      "description": "Double shot of espresso poured over chilled filtered water and crystal-clear ice rocks.",
+      "ingredients": [
+        "Espresso",
+        "Filtered Water",
+        "Ice"
+      ],
+      "pairing_suggestion": "item_almond_danish"
+    },
+    "word_count": 57
+  },
+  "item_flat_white": {
+    "chunk_id": "item_flat_white",
+    "paper_id": "item_flat_white",
+    "paper_title": "Velvet Oat Flat White",
+    "page": 1,
+    "section": "Espresso Classics",
+    "text": "Menu Item: Velvet Oat Flat White (ID: item_flat_white)\nCategory: Espresso Classics | Price: $5.50 | Temperature: hot\nCaffeine Level: medium-high | Dietary Suitable Tags: vegan, dairy-free, gluten-free\nFlavor Notes: silky, sweet malt, milk chocolate\nDescription: Double ristretto espresso blended with micro-foamed organic oat milk for a velvety texture.\nIngredients: Ristretto Espresso, Micro-foamed Oat Milk\nRecommended Pairing: item_cookie_oat_chocolate\n",
+    "item_data": {
+      "id": "item_flat_white",
+      "name": "Velvet Oat Flat White",
+      "category": "Espresso Classics",
+      "price": 5.5,
+      "caffeine_level": "medium-high",
+      "temp": "hot",
+      "flavor_notes": [
+        "silky",
+        "sweet malt",
+        "milk chocolate"
+      ],
+      "dietary_tags": [
+        "vegan",
+        "dairy-free",
+        "gluten-free"
+      ],
+      "description": "Double ristretto espresso blended with micro-foamed organic oat milk for a velvety texture.",
+      "ingredients": [
+        "Ristretto Espresso",
+        "Micro-foamed Oat Milk"
+      ],
+      "pairing_suggestion": "item_cookie_oat_chocolate"
+    },
+    "word_count": 57
+  },
+  "item_cappuccino_honey": {
+    "chunk_id": "item_cappuccino_honey",
+    "paper_id": "item_cappuccino_honey",
+    "paper_title": "Spanish Honey Cinnamon Cappuccino",
+    "page": 1,
+    "section": "Espresso Classics",
+    "text": "Menu Item: Spanish Honey Cinnamon Cappuccino (ID: item_cappuccino_honey)\nCategory: Espresso Classics | Price: $5.75 | Temperature: hot\nCaffeine Level: medium | Dietary Suitable Tags: gluten-free, vegetarian\nFlavor Notes: wildflower honey, ceylon cinnamon, creamy\nDescription: Rich espresso topped with aerated steamed whole milk, raw wildflower honey, and dusted Ceylon cinnamon.\nIngredients: Espresso, Whole Milk, Raw Wildflower Honey, Ceylon Cinnamon\nRecommended Pairing: item_croissant_butter\n",
+    "item_data": {
+      "id": "item_cappuccino_honey",
+      "name": "Spanish Honey Cinnamon Cappuccino",
+      "category": "Espresso Classics",
+      "price": 5.75,
+      "caffeine_level": "medium",
+      "temp": "hot",
+      "flavor_notes": [
+        "wildflower honey",
+        "ceylon cinnamon",
+        "creamy"
+      ],
+      "dietary_tags": [
+        "gluten-free",
+        "vegetarian"
+      ],
+      "description": "Rich espresso topped with aerated steamed whole milk, raw wildflower honey, and dusted Ceylon cinnamon.",
+      "ingredients": [
+        "Espresso",
+        "Whole Milk",
+        "Raw Wildflower Honey",
+        "Ceylon Cinnamon"
+      ],
+      "pairing_suggestion": "item_croissant_butter"
+    },
+    "word_count": 61
+  },
+  "item_vanilla_cold_foam": {
+    "chunk_id": "item_vanilla_cold_foam",
+    "paper_id": "item_vanilla_cold_foam",
+    "paper_title": "Vanilla Bean Cloud Cold Brew",
+    "page": 1,
+    "section": "Cold Brew & Nitro",
+    "text": "Menu Item: Vanilla Bean Cloud Cold Brew (ID: item_vanilla_cold_foam)\nCategory: Cold Brew & Nitro | Price: $6.25 | Temperature: iced\nCaffeine Level: high | Dietary Suitable Tags: gluten-free, vegetarian\nFlavor Notes: madagascar vanilla, smooth cocoa, silky cream\nDescription: 20-hour steep cold brew crowned with sweet vanilla bean cold foam.\nIngredients: Cold Brew Coffee, Sweet Vanilla Cream Cold Foam, Vanilla Syrup\nRecommended Pairing: item_brownie_gf\n",
+    "item_data": {
+      "id": "item_vanilla_cold_foam",
+      "name": "Vanilla Bean Cloud Cold Brew",
+      "category": "Cold Brew & Nitro",
+      "price": 6.25,
+      "caffeine_level": "high",
+      "temp": "iced",
+      "flavor_notes": [
+        "madagascar vanilla",
+        "smooth cocoa",
+        "silky cream"
+      ],
+      "dietary_tags": [
+        "gluten-free",
+        "vegetarian"
+      ],
+      "description": "20-hour steep cold brew crowned with sweet vanilla bean cold foam.",
+      "ingredients": [
+        "Cold Brew Coffee",
+        "Sweet Vanilla Cream Cold Foam",
+        "Vanilla Syrup"
+      ],
+      "pairing_suggestion": "item_brownie_gf"
+    },
+    "word_count": 63
+  },
+  "item_nitro_oat_latte": {
+    "chunk_id": "item_nitro_oat_latte",
+    "paper_id": "item_nitro_oat_latte",
+    "paper_title": "Nitro Draft Oat Milk Latte",
+    "page": 1,
+    "section": "Cold Brew & Nitro",
+    "text": "Menu Item: Nitro Draft Oat Milk Latte (ID: item_nitro_oat_latte)\nCategory: Cold Brew & Nitro | Price: $6.75 | Temperature: iced\nCaffeine Level: high | Dietary Suitable Tags: vegan, dairy-free, gluten-free\nFlavor Notes: creamy nitrogen cascade, brown sugar, toasted oats\nDescription: Cold brew infused with pure nitrogen gas and creamed with oat milk on tap for a Guinness-like cascade.\nIngredients: Nitrogen-Infused Cold Brew, Oat Milk\nRecommended Pairing: item_avocado_toast\n",
+    "item_data": {
+      "id": "item_nitro_oat_latte",
+      "name": "Nitro Draft Oat Milk Latte",
+      "category": "Cold Brew & Nitro",
+      "price": 6.75,
+      "caffeine_level": "high",
+      "temp": "iced",
+      "flavor_notes": [
+        "creamy nitrogen cascade",
+        "brown sugar",
+        "toasted oats"
+      ],
+      "dietary_tags": [
+        "vegan",
+        "dairy-free",
+        "gluten-free"
+      ],
+      "description": "Cold brew infused with pure nitrogen gas and creamed with oat milk on tap for a Guinness-like cascade.",
+      "ingredients": [
+        "Nitrogen-Infused Cold Brew",
+        "Oat Milk"
+      ],
+      "pairing_suggestion": "item_avocado_toast"
+    },
+    "word_count": 67
+  },
+  "item_matcha_iced_oat": {
+    "chunk_id": "item_matcha_iced_oat",
+    "paper_id": "item_matcha_iced_oat",
+    "paper_title": "Ceremonial Uji Matcha Latte",
+    "page": 1,
+    "section": "Matcha & Tea",
+    "text": "Menu Item: Ceremonial Uji Matcha Latte (ID: item_matcha_iced_oat)\nCategory: Matcha & Tea | Price: $6.50 | Temperature: iced\nCaffeine Level: medium | Dietary Suitable Tags: vegan, dairy-free, gluten-free\nFlavor Notes: earthy umami, creamy oat, subtle sweetness\nDescription: First-harvest ceremonial Grade A matcha whisked with bamboo chasen and served over iced oat milk.\nIngredients: Uji Ceremonial Matcha, Oat Milk, Agave Nectar, Ice\nRecommended Pairing: item_almond_danish\n",
+    "item_data": {
+      "id": "item_matcha_iced_oat",
+      "name": "Ceremonial Uji Matcha Latte",
+      "category": "Matcha & Tea",
+      "price": 6.5,
+      "caffeine_level": "medium",
+      "temp": "iced",
+      "flavor_notes": [
+        "earthy umami",
+        "creamy oat",
+        "subtle sweetness"
+      ],
+      "dietary_tags": [
+        "vegan",
+        "dairy-free",
+        "gluten-free"
+      ],
+      "description": "First-harvest ceremonial Grade A matcha whisked with bamboo chasen and served over iced oat milk.",
+      "ingredients": [
+        "Uji Ceremonial Matcha",
+        "Oat Milk",
+        "Agave Nectar",
+        "Ice"
+      ],
+      "pairing_suggestion": "item_almond_danish"
+    },
+    "word_count": 64
+  },
+  "item_chai_dirty_iced": {
+    "chunk_id": "item_chai_dirty_iced",
+    "paper_id": "item_chai_dirty_iced",
+    "paper_title": "Dirty Spiced Chai Latte",
+    "page": 1,
+    "section": "Matcha & Tea",
+    "text": "Menu Item: Dirty Spiced Chai Latte (ID: item_chai_dirty_iced)\nCategory: Matcha & Tea | Price: $6.25 | Temperature: iced\nCaffeine Level: high | Dietary Suitable Tags: gluten-free, vegetarian\nFlavor Notes: cardamom, star anise, clove, espresso kick\nDescription: Slow-brewed black tea infused with whole Indian spices, milk, and a shot of espresso.\nIngredients: Masala Chai Concentrate, Milk, Espresso Shot, Ice\nRecommended Pairing: item_croissant_butter\n",
+    "item_data": {
+      "id": "item_chai_dirty_iced",
+      "name": "Dirty Spiced Chai Latte",
+      "category": "Matcha & Tea",
+      "price": 6.25,
+      "caffeine_level": "high",
+      "temp": "iced",
+      "flavor_notes": [
+        "cardamom",
+        "star anise",
+        "clove",
+        "espresso kick"
+      ],
+      "dietary_tags": [
+        "gluten-free",
+        "vegetarian"
+      ],
+      "description": "Slow-brewed black tea infused with whole Indian spices, milk, and a shot of espresso.",
+      "ingredients": [
+        "Masala Chai Concentrate",
+        "Milk",
+        "Espresso Shot",
+        "Ice"
+      ],
+      "pairing_suggestion": "item_croissant_butter"
+    },
+    "word_count": 61
+  },
+  "item_pourover_yirgacheffe": {
+    "chunk_id": "item_pourover_yirgacheffe",
+    "paper_id": "item_pourover_yirgacheffe",
+    "paper_title": "Ethiopian Yirgacheffe V60 Pourover",
+    "page": 1,
+    "section": "Single-Origin Pourover",
+    "text": "Menu Item: Ethiopian Yirgacheffe V60 Pourover (ID: item_pourover_yirgacheffe)\nCategory: Single-Origin Pourover | Price: $5.95 | Temperature: hot\nCaffeine Level: medium-high | Dietary Suitable Tags: vegan, dairy-free, gluten-free, keto, sugar-free\nFlavor Notes: jasmine floral, bergamot, blueberry tea finish\nDescription: Hand-poured single origin V60 drip with delicate floral aromatics and vibrant berry acidity.\nIngredients: Single-Origin Yirgacheffe Beans, Filtered Water\nRecommended Pairing: item_almond_danish\n",
+    "item_data": {
+      "id": "item_pourover_yirgacheffe",
+      "name": "Ethiopian Yirgacheffe V60 Pourover",
+      "category": "Single-Origin Pourover",
+      "price": 5.95,
+      "caffeine_level": "medium-high",
+      "temp": "hot",
+      "flavor_notes": [
+        "jasmine floral",
+        "bergamot",
+        "blueberry tea finish"
+      ],
+      "dietary_tags": [
+        "vegan",
+        "dairy-free",
+        "gluten-free",
+        "keto",
+        "sugar-free"
+      ],
+      "description": "Hand-poured single origin V60 drip with delicate floral aromatics and vibrant berry acidity.",
+      "ingredients": [
+        "Single-Origin Yirgacheffe Beans",
+        "Filtered Water"
+      ],
+      "pairing_suggestion": "item_almond_danish"
+    },
+    "word_count": 60
+  },
+  "item_pourover_huila": {
+    "chunk_id": "item_pourover_huila",
+    "paper_id": "item_pourover_huila",
+    "paper_title": "Colombian Huila Supreme Pourover",
+    "page": 1,
+    "section": "Single-Origin Pourover",
+    "text": "Menu Item: Colombian Huila Supreme Pourover (ID: item_pourover_huila)\nCategory: Single-Origin Pourover | Price: $5.75 | Temperature: hot\nCaffeine Level: medium-high | Dietary Suitable Tags: vegan, dairy-free, gluten-free, keto, sugar-free\nFlavor Notes: red apple acidity, panela sugar, walnut\nDescription: Medium roast pourover featuring juicy sweetness, balanced body, and subtle nutty notes.\nIngredients: Colombian Huila Beans, Filtered Water\nRecommended Pairing: item_cookie_oat_chocolate\n",
+    "item_data": {
+      "id": "item_pourover_huila",
+      "name": "Colombian Huila Supreme Pourover",
+      "category": "Single-Origin Pourover",
+      "price": 5.75,
+      "caffeine_level": "medium-high",
+      "temp": "hot",
+      "flavor_notes": [
+        "red apple acidity",
+        "panela sugar",
+        "walnut"
+      ],
+      "dietary_tags": [
+        "vegan",
+        "dairy-free",
+        "gluten-free",
+        "keto",
+        "sugar-free"
+      ],
+      "description": "Medium roast pourover featuring juicy sweetness, balanced body, and subtle nutty notes.",
+      "ingredients": [
+        "Colombian Huila Beans",
+        "Filtered Water"
+      ],
+      "pairing_suggestion": "item_cookie_oat_chocolate"
+    },
+    "word_count": 59
+  },
+  "item_decaf_latte_hazelnut": {
+    "chunk_id": "item_decaf_latte_hazelnut",
+    "paper_id": "item_decaf_latte_hazelnut",
+    "paper_title": "Decaf Toasted Hazelnut Latte",
+    "page": 1,
+    "section": "Decaf & Low Caffeine",
+    "text": "Menu Item: Decaf Toasted Hazelnut Latte (ID: item_decaf_latte_hazelnut)\nCategory: Decaf & Low Caffeine | Price: $5.50 | Temperature: hot\nCaffeine Level: decaf | Dietary Suitable Tags: gluten-free, vegetarian\nFlavor Notes: roasted nut, creamy caramel, smooth\nDescription: Swiss Water process decaf espresso paired with steamed almond milk and natural hazelnut syrup.\nIngredients: Swiss Water Decaf Espresso, Almond Milk, Hazelnut Syrup\nRecommended Pairing: item_brownie_gf\n",
+    "item_data": {
+      "id": "item_decaf_latte_hazelnut",
+      "name": "Decaf Toasted Hazelnut Latte",
+      "category": "Decaf & Low Caffeine",
+      "price": 5.5,
+      "caffeine_level": "decaf",
+      "temp": "hot",
+      "flavor_notes": [
+        "roasted nut",
+        "creamy caramel",
+        "smooth"
+      ],
+      "dietary_tags": [
+        "gluten-free",
+        "vegetarian"
+      ],
+      "description": "Swiss Water process decaf espresso paired with steamed almond milk and natural hazelnut syrup.",
+      "ingredients": [
+        "Swiss Water Decaf Espresso",
+        "Almond Milk",
+        "Hazelnut Syrup"
+      ],
+      "pairing_suggestion": "item_brownie_gf"
+    },
+    "word_count": 62
+  },
+  "item_golden_turmeric_latte": {
+    "chunk_id": "item_golden_turmeric_latte",
+    "paper_id": "item_golden_turmeric_latte",
+    "paper_title": "Golden Turmeric Ginger Tonic",
+    "page": 1,
+    "section": "Decaf & Wellness",
+    "text": "Menu Item: Golden Turmeric Ginger Tonic (ID: item_golden_turmeric_latte)\nCategory: Decaf & Wellness | Price: $5.25 | Temperature: hot\nCaffeine Level: decaf | Dietary Suitable Tags: vegan, dairy-free, gluten-free, sugar-free\nFlavor Notes: warming turmeric, black pepper boost, ginger spice\nDescription: Caffeine-free wellness latte with ground turmeric, fresh ginger juice, coconut milk, and black pepper.\nIngredients: Turmeric Juice, Ginger Juice, Coconut Milk, Black Pepper\nRecommended Pairing: item_avocado_toast\n",
+    "item_data": {
+      "id": "item_golden_turmeric_latte",
+      "name": "Golden Turmeric Ginger Tonic",
+      "category": "Decaf & Wellness",
+      "price": 5.25,
+      "caffeine_level": "decaf",
+      "temp": "hot",
+      "flavor_notes": [
+        "warming turmeric",
+        "black pepper boost",
+        "ginger spice"
+      ],
+      "dietary_tags": [
+        "vegan",
+        "dairy-free",
+        "gluten-free",
+        "sugar-free"
+      ],
+      "description": "Caffeine-free wellness latte with ground turmeric, fresh ginger juice, coconut milk, and black pepper.",
+      "ingredients": [
+        "Turmeric Juice",
+        "Ginger Juice",
+        "Coconut Milk",
+        "Black Pepper"
+      ],
+      "pairing_suggestion": "item_avocado_toast"
+    },
+    "word_count": 65
+  },
+  "item_croissant_butter": {
+    "chunk_id": "item_croissant_butter",
+    "paper_id": "item_croissant_butter",
+    "paper_title": "Flaky French Butter Croissant",
+    "page": 1,
+    "section": "Bakery & Pastries",
+    "text": "Menu Item: Flaky French Butter Croissant (ID: item_croissant_butter)\nCategory: Bakery & Pastries | Price: $4.25 | Temperature: warm\nCaffeine Level: decaf | Dietary Suitable Tags: vegetarian\nFlavor Notes: rich butter, flaky layers, golden crust\nDescription: Hand-laminated 81-layer French butter croissant baked fresh every morning.\nIngredients: French Butter, Wheat Flour, Yeast, Sea Salt\nRecommended Pairing: item_espresso_classic\n",
+    "item_data": {
+      "id": "item_croissant_butter",
+      "name": "Flaky French Butter Croissant",
+      "category": "Bakery & Pastries",
+      "price": 4.25,
+      "caffeine_level": "decaf",
+      "temp": "warm",
+      "flavor_notes": [
+        "rich butter",
+        "flaky layers",
+        "golden crust"
+      ],
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "description": "Hand-laminated 81-layer French butter croissant baked fresh every morning.",
+      "ingredients": [
+        "French Butter",
+        "Wheat Flour",
+        "Yeast",
+        "Sea Salt"
+      ],
+      "pairing_suggestion": "item_espresso_classic"
+    },
+    "word_count": 55
+  },
+  "item_almond_danish": {
+    "chunk_id": "item_almond_danish",
+    "paper_id": "item_almond_danish",
+    "paper_title": "Toasted Almond Frangipane Danish",
+    "page": 1,
+    "section": "Bakery & Pastries",
+    "text": "Menu Item: Toasted Almond Frangipane Danish (ID: item_almond_danish)\nCategory: Bakery & Pastries | Price: $4.95 | Temperature: warm\nCaffeine Level: decaf | Dietary Suitable Tags: vegetarian\nFlavor Notes: sweet almond cream, toasted flakes, pastry\nDescription: Puff pastry stuffed with sweet almond frangipane cream and topped with sliced roasted almonds.\nIngredients: Flour, Almond Paste, Sliced Almonds, Butter\nRecommended Pairing: item_pourover_yirgacheffe\n",
+    "item_data": {
+      "id": "item_almond_danish",
+      "name": "Toasted Almond Frangipane Danish",
+      "category": "Bakery & Pastries",
+      "price": 4.95,
+      "caffeine_level": "decaf",
+      "temp": "warm",
+      "flavor_notes": [
+        "sweet almond cream",
+        "toasted flakes",
+        "pastry"
+      ],
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "description": "Puff pastry stuffed with sweet almond frangipane cream and topped with sliced roasted almonds.",
+      "ingredients": [
+        "Flour",
+        "Almond Paste",
+        "Sliced Almonds",
+        "Butter"
+      ],
+      "pairing_suggestion": "item_pourover_yirgacheffe"
+    },
+    "word_count": 59
+  },
+  "item_avocado_toast": {
+    "chunk_id": "item_avocado_toast",
+    "paper_id": "item_avocado_toast",
+    "paper_title": "Artisanal Sourdough Avocado Toast",
+    "page": 1,
+    "section": "Artisanal Foods",
+    "text": "Menu Item: Artisanal Sourdough Avocado Toast (ID: item_avocado_toast)\nCategory: Artisanal Foods | Price: $9.50 | Temperature: fresh\nCaffeine Level: decaf | Dietary Suitable Tags: vegan, dairy-free\nFlavor Notes: creamy avocado, citrus zest, chili flakes\nDescription: Thick-cut country sourdough topped with smashed Hass avocado, radishes, extra virgin olive oil, and Aleppo chili flakes.\nIngredients: Sourdough Bread, Hass Avocado, EVOO, Aleppo Pepper, Lemon Juice\nRecommended Pairing: item_nitro_oat_latte\n",
+    "item_data": {
+      "id": "item_avocado_toast",
+      "name": "Artisanal Sourdough Avocado Toast",
+      "category": "Artisanal Foods",
+      "price": 9.5,
+      "caffeine_level": "decaf",
+      "temp": "fresh",
+      "flavor_notes": [
+        "creamy avocado",
+        "citrus zest",
+        "chili flakes"
+      ],
+      "dietary_tags": [
+        "vegan",
+        "dairy-free"
+      ],
+      "description": "Thick-cut country sourdough topped with smashed Hass avocado, radishes, extra virgin olive oil, and Aleppo chili flakes.",
+      "ingredients": [
+        "Sourdough Bread",
+        "Hass Avocado",
+        "EVOO",
+        "Aleppo Pepper",
+        "Lemon Juice"
+      ],
+      "pairing_suggestion": "item_nitro_oat_latte"
+    },
+    "word_count": 65
+  },
+  "item_brownie_gf": {
+    "chunk_id": "item_brownie_gf",
+    "paper_id": "item_brownie_gf",
+    "paper_title": "Valrhona Dark Chocolate Brownie",
+    "page": 1,
+    "section": "Bakery & Pastries",
+    "text": "Menu Item: Valrhona Dark Chocolate Brownie (ID: item_brownie_gf)\nCategory: Bakery & Pastries | Price: $4.75 | Temperature: room-temp\nCaffeine Level: low | Dietary Suitable Tags: gluten-free, vegetarian\nFlavor Notes: intense fudge, 70% dark chocolate, sea salt\nDescription: Decadent gluten-free brownie crafted with 70% Valrhona dark chocolate and flaky sea salt.\nIngredients: Almond Flour, Valrhona Cocoa, Eggs, Butter, Sea Salt\nRecommended Pairing: item_vanilla_cold_foam\n",
+    "item_data": {
+      "id": "item_brownie_gf",
+      "name": "Valrhona Dark Chocolate Brownie",
+      "category": "Bakery & Pastries",
+      "price": 4.75,
+      "caffeine_level": "low",
+      "temp": "room-temp",
+      "flavor_notes": [
+        "intense fudge",
+        "70% dark chocolate",
+        "sea salt"
+      ],
+      "dietary_tags": [
+        "gluten-free",
+        "vegetarian"
+      ],
+      "description": "Decadent gluten-free brownie crafted with 70% Valrhona dark chocolate and flaky sea salt.",
+      "ingredients": [
+        "Almond Flour",
+        "Valrhona Cocoa",
+        "Eggs",
+        "Butter",
+        "Sea Salt"
+      ],
+      "pairing_suggestion": "item_vanilla_cold_foam"
+    },
+    "word_count": 62
+  },
+  "item_cookie_oat_chocolate": {
+    "chunk_id": "item_cookie_oat_chocolate",
+    "paper_id": "item_cookie_oat_chocolate",
+    "paper_title": "Vegan Oat Chocolate Chunk Cookie",
+    "page": 1,
+    "section": "Bakery & Pastries",
+    "text": "Menu Item: Vegan Oat Chocolate Chunk Cookie (ID: item_cookie_oat_chocolate)\nCategory: Bakery & Pastries | Price: $3.95 | Temperature: room-temp\nCaffeine Level: low | Dietary Suitable Tags: vegan, dairy-free\nFlavor Notes: chewy oats, dark chocolate chunks, brown sugar\nDescription: Chewy oat cookie studded with 60% dark chocolate chunks and coconut oil.\nIngredients: Rolled Oats, Coconut Oil, Dark Chocolate Chunks, Maple Syrup\nRecommended Pairing: item_flat_white\n",
+    "item_data": {
+      "id": "item_cookie_oat_chocolate",
+      "name": "Vegan Oat Chocolate Chunk Cookie",
+      "category": "Bakery & Pastries",
+      "price": 3.95,
+      "caffeine_level": "low",
+      "temp": "room-temp",
+      "flavor_notes": [
+        "chewy oats",
+        "dark chocolate chunks",
+        "brown sugar"
+      ],
+      "dietary_tags": [
+        "vegan",
+        "dairy-free"
+      ],
+      "description": "Chewy oat cookie studded with 60% dark chocolate chunks and coconut oil.",
+      "ingredients": [
+        "Rolled Oats",
+        "Coconut Oil",
+        "Dark Chocolate Chunks",
+        "Maple Syrup"
+      ],
+      "pairing_suggestion": "item_flat_white"
+    },
+    "word_count": 63
+  }
+}
