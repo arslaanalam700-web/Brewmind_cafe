@@ -218,79 +218,89 @@ st.markdown(f"""
         font-size: 0.92rem;
         border-radius: 10px;
         border: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+        transition: all 0.2s ease;
+    }}
+
+    .stButton>button:hover {{
+        background: linear-gradient(135deg, rgba(146, 64, 14, 0.95) 0%, rgba(120, 53, 15, 0.95) 100%);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+        transform: translateY(-1px);
+    }}
+
     /* Mobile and Tablet Responsiveness */
-    @media (max-width: 768px) {
-        .block-container {
+    @media (max-width: 768px) {{
+        .block-container {{
             padding-top: 0.8rem !important;
             padding-bottom: 5.5rem !important;
             padding-left: 0.7rem !important;
             padding-right: 0.7rem !important;
             max-width: 100% !important;
-        }
+        }}
 
-        .hero-banner {
+        .hero-banner {{
             padding: 1.2rem 1.1rem !important;
             border-radius: 14px !important;
             margin-bottom: 1rem !important;
-        }
+        }}
 
-        .brand-title {
+        .brand-title {{
             font-size: 1.65rem !important;
             line-height: 1.25 !important;
             margin-bottom: 0.3rem !important;
-        }
+        }}
 
-        .brand-subtitle {
+        .brand-subtitle {{
             font-size: 0.88rem !important;
             line-height: 1.4 !important;
-        }
+        }}
 
-        .tag-pill {
+        .tag-pill {{
             font-size: 0.72rem !important;
             padding: 3px 8px !important;
             margin-top: 6px !important;
             margin-right: 4px !important;
-        }
+        }}
 
-        .stChatMessage {
+        .stChatMessage {{
             padding: 0.75rem 0.85rem !important;
             border-radius: 12px !important;
             margin-bottom: 0.6rem !important;
             font-size: 0.92rem !important;
-        }
+        }}
 
-        .stButton>button {
+        .stButton>button {{
             font-size: 0.82rem !important;
             padding: 8px 6px !important;
             min-height: 42px !important;
             white-space: normal !important;
             word-wrap: break-word !important;
             line-height: 1.2 !important;
-        }
+        }}
 
-        div[data-testid="stChatInput"] {
+        div[data-testid="stChatInput"] {{
             border-radius: 14px !important;
             margin-bottom: 0.2rem !important;
-        }
+        }}
 
-        div[data-testid="stChatInput"] textarea {
+        div[data-testid="stChatInput"] textarea {{
             font-size: 0.92rem !important;
-        }
-    }
+        }}
+    }}
 
-    @media (max-width: 480px) {
-        .brand-title {
+    @media (max-width: 480px) {{
+        .brand-title {{
             font-size: 1.35rem !important;
-        }
+        }}
 
-        .brand-subtitle {
+        .brand-subtitle {{
             font-size: 0.82rem !important;
-        }
+        }}
 
-        .hero-banner {
+        .hero-banner {{
             padding: 1rem 0.9rem !important;
-        }
-    }
+        }}
+    }}
 </style>
 """, unsafe_allow_html=True)
 
