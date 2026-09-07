@@ -58,7 +58,7 @@ bg_base64 = get_base64_bg(HD_BG_IMAGE_PATH)
 st.set_page_config(
     page_title="BrewMind Café • AI Barista",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="auto"
 )
 
 # Custom Aesthetic Minimalist CSS (Emoji-Free)
@@ -218,15 +218,79 @@ st.markdown(f"""
         font-size: 0.92rem;
         border-radius: 10px;
         border: 1px solid rgba(255, 255, 255, 0.2);
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-        transition: all 0.2s ease;
-    }}
+    /* Mobile and Tablet Responsiveness */
+    @media (max-width: 768px) {
+        .block-container {
+            padding-top: 0.8rem !important;
+            padding-bottom: 5.5rem !important;
+            padding-left: 0.7rem !important;
+            padding-right: 0.7rem !important;
+            max-width: 100% !important;
+        }
 
-    .stButton>button:hover {{
-        background: linear-gradient(135deg, rgba(146, 64, 14, 0.95) 0%, rgba(120, 53, 15, 0.95) 100%);
-        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
-        transform: translateY(-1px);
-    }}
+        .hero-banner {
+            padding: 1.2rem 1.1rem !important;
+            border-radius: 14px !important;
+            margin-bottom: 1rem !important;
+        }
+
+        .brand-title {
+            font-size: 1.65rem !important;
+            line-height: 1.25 !important;
+            margin-bottom: 0.3rem !important;
+        }
+
+        .brand-subtitle {
+            font-size: 0.88rem !important;
+            line-height: 1.4 !important;
+        }
+
+        .tag-pill {
+            font-size: 0.72rem !important;
+            padding: 3px 8px !important;
+            margin-top: 6px !important;
+            margin-right: 4px !important;
+        }
+
+        .stChatMessage {
+            padding: 0.75rem 0.85rem !important;
+            border-radius: 12px !important;
+            margin-bottom: 0.6rem !important;
+            font-size: 0.92rem !important;
+        }
+
+        .stButton>button {
+            font-size: 0.82rem !important;
+            padding: 8px 6px !important;
+            min-height: 42px !important;
+            white-space: normal !important;
+            word-wrap: break-word !important;
+            line-height: 1.2 !important;
+        }
+
+        div[data-testid="stChatInput"] {
+            border-radius: 14px !important;
+            margin-bottom: 0.2rem !important;
+        }
+
+        div[data-testid="stChatInput"] textarea {
+            font-size: 0.92rem !important;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .brand-title {
+            font-size: 1.35rem !important;
+        }
+
+        .brand-subtitle {
+            font-size: 0.82rem !important;
+        }
+
+        .hero-banner {
+            padding: 1rem 0.9rem !important;
+        }
+    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -357,18 +421,19 @@ for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
         st.markdown(msg["content"])
 
-# Quick Prompt Action Chips (Emoji-Free)
+# Quick Prompt Action Chips (Emoji-Free & Mobile-Friendly 2x2 Grid)
 st.markdown("##### Popular Requests:")
-chip_cols = st.columns(4)
+row1_col1, row1_col2 = st.columns(2)
+row2_col1, row2_col2 = st.columns(2)
 selected_prompt = None
 
-if chip_cols[0].button("Iced Oat Milk Special", use_container_width=True):
+if row1_col1.button("Iced Oat Milk Special", use_container_width=True):
     selected_prompt = "Recommend an iced oat milk coffee drink with flavor notes and exact price."
-if chip_cols[1].button("Coffee & Pastry Combo", use_container_width=True):
+if row1_col2.button("Coffee & Pastry Combo", use_container_width=True):
     selected_prompt = "Suggest a perfect coffee and bakery pairing under $10."
-if chip_cols[2].button("Vegan & Dairy-Free", use_container_width=True):
+if row2_col1.button("Vegan & Dairy-Free", use_container_width=True):
     selected_prompt = "What vegan and dairy-free options do you offer on the menu?"
-if chip_cols[3].button("Strong Single-Origin", use_container_width=True):
+if row2_col2.button("Strong Single-Origin", use_container_width=True):
     selected_prompt = "What single-origin pourover coffee do you recommend for a high caffeine kick?"
 
 # User Input
