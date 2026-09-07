@@ -121,9 +121,14 @@ st.markdown(f"""
     /* Elegant Luxury Cinzel Decorative Title */
     .brand-title {{
         font-family: 'Cinzel Decorative', 'Cormorant Garamond', serif;
-        font-size: 2.7rem;
+        font-size: clamp(1.4rem, 4vw, 2.5rem);
         font-weight: 900;
-        letter-spacing: 0.03em;
+        letter-spacing: 0.02em;
+        word-break: keep-all !important;
+        overflow-wrap: normal !important;
+        word-wrap: normal !important;
+        hyphens: none !important;
+        white-space: normal !important;
         background: linear-gradient(135deg, #FFFFFF 0%, #FDE68A 50%, #F59E0B 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -245,9 +250,14 @@ st.markdown(f"""
         }}
 
         .brand-title {{
-            font-size: 1.65rem !important;
+            font-size: 1.35rem !important;
             line-height: 1.25 !important;
             margin-bottom: 0.3rem !important;
+            word-break: keep-all !important;
+            overflow-wrap: normal !important;
+            word-wrap: normal !important;
+            hyphens: none !important;
+            letter-spacing: 0.01em !important;
         }}
 
         .brand-subtitle {{
@@ -290,15 +300,21 @@ st.markdown(f"""
 
     @media (max-width: 480px) {{
         .brand-title {{
-            font-size: 1.35rem !important;
+            font-size: 1.15rem !important;
+            line-height: 1.25 !important;
+            word-break: keep-all !important;
+            overflow-wrap: normal !important;
+            word-wrap: normal !important;
+            hyphens: none !important;
+            letter-spacing: 0 !important;
         }}
 
         .brand-subtitle {{
-            font-size: 0.82rem !important;
+            font-size: 0.80rem !important;
         }}
 
         .hero-banner {{
-            padding: 1rem 0.9rem !important;
+            padding: 0.9rem 0.8rem !important;
         }}
     }}
 </style>
