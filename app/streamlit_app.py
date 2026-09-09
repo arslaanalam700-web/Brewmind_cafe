@@ -206,7 +206,7 @@ st.markdown(f"""
     /* Price Badge */
     .price-badge {{
         background: #FEF3C7;
-        color: #92400E;
+        color: #92400E ;
         font-weight: 800;
         font-size: 0.85rem;
         padding: 2px 8px;
