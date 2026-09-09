@@ -298,7 +298,7 @@ st.markdown(f"""
         }}
     }}
 
-    @media (max-width: 480px) {{
+    @media (max-width: 480px ) {{
         .brand-title {{
             font-size: 1.15rem !important;
             line-height: 1.25 !important;
