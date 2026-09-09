@@ -1,6 +1,6 @@
 # ☕ BrewMind Café — Artisanal AI Barista & Multi-Agent Sommelier
 
-An intelligent, multi-agent AI Barista and coffee recommender system built with **Google Gemini**, **Streamlit**, and **Multi-Strategy Hybrid RAG**. 
+An intelligent , multi-agent AI Barista and coffee recommender system built with **Google Gemini**, **Streamlit**, and **Multi-Strategy Hybrid RAG**. 
 
 BrewMind Café decodes customer flavor preferences, dietary restrictions (Vegan, Dairy-Free, Gluten-Free, Keto, Sugar-Free), and caffeine goals to craft tailored beverage recommendations and bakery pairings with strict item citations and constraint verification.
 
