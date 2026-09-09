@@ -112,7 +112,7 @@ st.markdown(f"""
         -webkit-backdrop-filter: blur(18px);
         border-radius: 20px;
         padding: 2.2rem 2.6rem;
-        color: #FFFDF9;
+        color: #FFFDF9 ;
         margin-bottom: 1.5rem;
         box-shadow: 0 20px 30px -8px rgba(0, 0, 0, 0.6);
         border: 1px solid rgba(255, 255, 255, 0.18);
