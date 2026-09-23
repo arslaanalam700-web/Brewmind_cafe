@@ -59,7 +59,7 @@ def run_baseline_single_agent(query: str, api_key: Optional[str] = None, model: 
         return answer
 
     # 2. Call Gemini for baseline single-agent answer with fallback
-    client = genai.Client(api_key=key_to_use)
+    client  = genai.Client(api_key=key_to_use)
     prompt = f"USER RESEARCH QUESTION: {query}\n\nRETRIEVED CONTEXT CHUNKS:\n{context_str}\n\nPlease generate a cited answer based ONLY on the chunks above."
     
     answer = call_gemini_with_fallback(
