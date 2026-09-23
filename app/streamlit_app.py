@@ -27,7 +27,7 @@ except ImportError:
     HAS_RAG = False
 
 from config import (
-    GEMINI_API_KEY,
+    GEMINI_API_KEY ,
     DEFAULT_MODEL,
     MODEL_CANDIDATES,
     MENU_JSON_PATH,
