@@ -19,7 +19,7 @@ def test_manual_queries():
     print("=" * 70)
     
     test_queries = [
-        "How does DPO derive closed-form optimal policy from Bradley-Terry preference model?",
+        "How does DPO derive closed-form optimal policy from Bradley-Terry preference model ?",
         "What is reward model overoptimization and Goodhart's law in RLHF?",
         "Constitutional AI harmlessness from AI feedback without human labels"
     ]
